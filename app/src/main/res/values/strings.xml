@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">labo4</string>
+    <string name="buscar_pelicula">Buscar pelicula</string>
+    <string name="search_movie">search movie</string>
+    <string name="add">Add</string>
+    <string name="movie_title_string">Movie title</string>
+    <string name="rate_ex_string">rating</string>
+    <string name="runtime_ex_string">runtime</string>
+    <string name="lorem">lorem</string>
+</resources>
