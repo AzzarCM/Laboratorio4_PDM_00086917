@@ -13,7 +13,7 @@ class NetworkUtility(){
 
     val TOKEN_API: String = "d0f5292e"
 
-    fun buildSearchUrl(movieName:String): URL {
+    fun buildSearchUrl(movieName:String?): URL {
         val builtUri = Uri.parse(MOVIES_API_BASEURL)
             .buildUpon()
             .appendQueryParameter("apikey", TOKEN_API)
@@ -44,7 +44,7 @@ class NetworkUtility(){
             if (hasInput) {
                 return scanner.next()
             } else {
-                return null
+                return ""
             }
         } finally {
             urlConnection.disconnect()
